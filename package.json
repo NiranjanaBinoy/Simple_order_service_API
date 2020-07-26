@@ -1,0 +1,21 @@
+{
+  "name": "treez_order_service_api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest",
+    "test:watch":"jest --watch",
+    "start": "nodemon server.js",
+    "start-server": "node server.js"
+  },
+  "author": "Niranjana Binoy",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "jest": "^26.1.0",
+    "mysql2": "^2.1.0",
+    "nodemon": "^2.0.4",
+    "supertest": "^4.0.2"
+  }
+}
